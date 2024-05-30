@@ -1,0 +1,170 @@
+.swiper {
+  width: 100%;
+  height: 80vh;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  /* border: 10px outset #464646; */
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.SliderText{
+  font-size: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.svg{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.svg text {
+  letter-spacing: 10px;
+  stroke: rgb(174,134,37);
+  font-size: 9rem;
+  font-weight: bold;
+  stroke-width: 3;
+  animation: textAnimate 5s infinite alternate;
+}
+.svg1{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.svg1 text {
+  letter-spacing: 10px;
+  stroke: #ff0015;
+  font-size: 9rem;
+  font-weight: bold;
+  stroke-width: 3;
+  animation: textAnimate1 5s infinite alternate;
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset:  20%;
+    fill:rgb(174,134,37);
+
+  }
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+    fill: hsla(189, 68%, 75%,0%)
+  }
+  
+}
+@keyframes textAnimate1 {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset:  20%;
+    fill:#ff0015;
+
+  }
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+    fill: hsla(189, 68%, 75%,0%)
+  }
+  
+}
+
+
+.Test {
+    width: auto;
+    height: auto;
+  }
+
+.Test-Slider img{
+height: auto;
+  width: auto;
+  object-fit: cover;
+}
+
+.iconSlider a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  color: #C5C6C7;
+  /* background-color: #090b13; */
+  border-radius: 2px;
+  margin-left: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+ .iconSlider  :hover {
+  color: #e5e5e5;
+  background-color: #141414;
+}
+
+
+.ClientImg {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.ClientImg img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.ClientImg:hover img {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px){
+  .SliderText{
+    font-size: 3rem;
+  }
+  .swiper {
+    width: 100%;
+    height: 400px;
+  }
+  .SliderButton{
+    padding:0 0.5rem;
+    font-size: 1rem;
+  }
+  .svg text {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  }
+  .svg{
+    margin-top: -20%;
+  }
+  .svg1 text {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  }
+  .svg1{
+    margin-top: -20%;
+  }
+  
+.iconSlider a {
+  margin-left: 15px;
+}
+.Cycle{
+  display: none;
+}
+}

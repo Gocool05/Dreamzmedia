@@ -1,0 +1,16 @@
+.spinning-circle {
+    animation: spin 5s linear infinite;
+    position: absolute;
+    overflow-x: hidden;
+  }
+
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
