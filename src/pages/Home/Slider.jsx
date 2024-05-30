@@ -27,7 +27,7 @@ const Slider = () => {
       >
         <SwiperSlide className='flex '>
           <img src="../../../Images/FB_IMG_1475170958394.jpg" className='' alt="Nature 2" />
-          <span className='absolute h-full w-full flex flex-col gap-3 justify-center bg-opacity-65 bg-black items-center text-center'>
+          <span className='absolute h-full w-full flex flex-col gap-3 justify-center bg-opacity-45 bg-black items-center text-center'>
             <svg className='svg w-full'>
                   <defs>
                     <pattern id="polka-dots" x="0" y="0"  width="100" height="100"
@@ -53,7 +53,7 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide className='flex '>
           <img src="https://images.squarespace-cdn.com/content/v1/60da576b8b440e12699c9263/bdfe74e5-e721-4bf7-ae29-ece7970cd598/20210915-114710-OVATION-02995.jpg" alt="Nature 2" />
-          <span className='absolute h-full w-full flex flex-col gap-3 justify-center bg-opacity-65 bg-black items-center text-center'>
+          <span className='absolute h-full w-full flex flex-col gap-3 justify-center bg-opacity-45 bg-black items-center text-center'>
             <svg className='svg1 w-full'>
                   <defs>
                     <pattern id="polka-dots" x="0" y="0"  width="100" height="100"
