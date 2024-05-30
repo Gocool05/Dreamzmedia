@@ -39,9 +39,12 @@ const Slider = () => {
               Dreamzmedia
               </text>
               </svg>
+            <a href='/about'>
             <button class="SliderButton cursor-pointer rounded-md uppercase bg-gray-lite px-4 py-1 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#AE8625,-0.5rem_-0.5rem_#AE8625] hover:bg-gray-normal hover:text-gray-lite transition">
-              See more
+              know more
             </button>
+            </a>
+
             <div class="iconSlider ">
             <a href='' className='active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#AE8625,-0.5rem_-0.5rem_#AE8625] transition'> <i class="fa fa-facebook "></i></a>
             <a href='' className='active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#AE8625,-0.5rem_-0.5rem_#AE8625] transition'> <i class="fa fa-instagram"></i></a>
@@ -65,15 +68,18 @@ const Slider = () => {
               MovieMads
               </text>
               </svg>
-            <button class="SliderButton cursor-pointer rounded-md uppercase bg-gray-lite px-4 py-1 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#ff0015,-0.5rem_-0.5rem_#ff0015] hover:bg-gray-normal hover:text-gray-lite transition">
-              See more
+            <a href='https://www.moviemads.com/' target={'_blank'}>
+            <button  class="SliderButton cursor-pointer rounded-md uppercase bg-gray-lite px-4 py-1 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#ff0015,-0.5rem_-0.5rem_#ff0015] hover:bg-gray-normal hover:text-gray-lite transition">
+              visit site
             </button>
+            </a>
+
             <div class="iconSlider ">
-            <a href='' className='active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#ff0015,-0.5rem_-0.5rem_#ff0015] transition'> <i class="fa fa-facebook "></i></a>
-            <a href='' className='active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#ff0015,-0.5rem_-0.5rem_#ff0015] transition'> <i class="fa fa-instagram"></i></a>
-            <a href='' className='active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#ff0015,-0.5rem_-0.5rem_#ff0015] transition' > <i class="fa-brands fa-youtube"></i></a>
-            <a href='' className='active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#ff0015,-0.5rem_-0.5rem_#ff0015] transition'> <i class="fa-brands fa-x-twitter"></i></a>
-            <a href='' className='active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#ff0015,-0.5rem_-0.5rem_#ff0015] transition'> <i class="fa fa-linkedin"></i></a>
+            <a href='https://www.facebook.com/people/Movie-mads/100088595811792/' target={'_blank'} className='active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#ff0015,-0.5rem_-0.5rem_#ff0015] transition'> <i class="fa fa-facebook "></i></a>
+            <a href='https://www.instagram.com/moviemadsindia/' target={'_blank'} className='active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#ff0015,-0.5rem_-0.5rem_#ff0015] transition'> <i class="fa fa-instagram"></i></a>
+            <a href='https://www.youtube.com/@Moviemadsindia' target={'_blank'} className='active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#ff0015,-0.5rem_-0.5rem_#ff0015] transition' > <i class="fa-brands fa-youtube"></i></a>
+            <a href='https://twitter.com/moviemadsindia/' target={'_blank'} className='active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#ff0015,-0.5rem_-0.5rem_#ff0015] transition'> <i class="fa-brands fa-x-twitter"></i></a>
+            <a href='https://www.linkedin.com/in/movie-mads-53233125b/' target={'_blank'} className='active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#ff0015,-0.5rem_-0.5rem_#ff0015] transition'> <i class="fa fa-linkedin"></i></a>
             </div>
             </span>
         </SwiperSlide>
