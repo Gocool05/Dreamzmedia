@@ -17,3 +17,157 @@ code {
     overflow-x: hidden;
 }
 }
+
+
+.BgContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Dark mode colors and gradient */
+  background: #212121; /* Fallback for browsers that don't support gradients */
+  background: linear-gradient(
+    135deg,
+    #212121 25%,
+    #141414 25%,
+    #141414 50%,
+    #212121 50%,
+    #212121 75%,
+    #141414 75%,
+    #141414
+  );
+  background-size: 80px 80px;
+
+  /* Animation */
+  animation: move 1s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 80px 80px;
+  }
+}
+
+.Bg2{
+  width: 100%;
+  height: 100%;
+
+  background: #141414;
+  --gap: 5em;
+  --line: 1px;
+  --color:#212121;
+
+  background-image: linear-gradient(
+      -90deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    ),
+    linear-gradient(
+      0deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    );
+  background-size: var(--gap) var(--gap);
+}
+
+.Bg1 {
+  width: 100%;
+  height: 100%;
+
+
+  /* Dark mode colors and gradient */
+  background: #FFFF6C; /* Fallback for browsers that don't support gradients */
+  background: linear-gradient(
+    135deg,
+    #FFFF6C 25%,
+    #FFFF9F 25%,
+    #FFFF9F 50%,
+    #FFFF6C 50%,
+    #FFFF6C 75%,
+    #FFFF9F 75%,
+    #FFFF9F
+  );
+  background-size: 20px 10px;
+
+  /* Animation */
+  animation: move1 1s linear infinite;
+}
+
+@keyframes move1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 40px;
+  }
+}
+
+
+.Link:hover{
+-webkit-animation: vibrate-1 0.3s linear infinite both;
+animation: vibrate-1 0.3s linear infinite both;
+}
+.Link2:hover{
+text-decoration: underline;
+text-underline-offset: 4;
+}
+
+@-webkit-keyframes vibrate-1 {
+0% {
+  -webkit-transform: translate(0);
+          transform: translate(0);
+}
+20% {
+  -webkit-transform: translate(-2px, 2px);
+          transform: translate(-2px, 2px);
+}
+40% {
+  -webkit-transform: translate(-2px, -2px);
+          transform: translate(-2px, -2px);
+}
+60% {
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+}
+80% {
+  -webkit-transform: translate(2px, -2px);
+          transform: translate(2px, -2px);
+}
+100% {
+  -webkit-transform: translate(0);
+          transform: translate(0);
+}
+}
+@keyframes vibrate-1 {
+0% {
+  -webkit-transform: translate(0);
+          transform: translate(0);
+}
+20% {
+  -webkit-transform: translate(-2px, 2px);
+          transform: translate(-2px, 2px);
+}
+40% {
+  -webkit-transform: translate(-2px, -2px);
+          transform: translate(-2px, -2px);
+}
+60% {
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+}
+80% {
+  -webkit-transform: translate(2px, -2px);
+          transform: translate(2px, -2px);
+}
+100% {
+  -webkit-transform: translate(0);
+          transform: translate(0);
+}
+}
