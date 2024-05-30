@@ -133,12 +133,12 @@ const Works = () => {
 
 {/* Works we do */}
 
-<section className="p-4 pb-24 lg:px-[110px] dark:bg-gray-100 dark:text-gray-800">
+<section className="p-4 pb-24 lg:px-[110px]  dark:text-gray-800">
 	<div className="container mx-auto space-y-12">
 
   <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
-			<img src="../../../Images/IMG-20190716-WA0032.jpg" alt="" className="h-80  dark:bg-gray-500 px-5  lg:aspect-video object-cover drop-shadow-[10px_15px_1px_rgba(174,134,37)]" />
-			<div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-50">
+			<img src="../../../Images/IMG-20190716-WA0032.jpg" alt="" className="h-80   px-5  lg:aspect-video object-cover drop-shadow-[10px_15px_1px_rgba(174,134,37)]" />
+			<div className="flex flex-col justify-center flex-1 p-6 ">
 				<h3 className="text-3xl font-bold text-gold">Wedding Events</h3>
 				<p className="my-6 text-gray-lite text-justify opacity-60">
         At DreamzMedia, we specialize in creating unforgettable wedding events that reflect your unique love story. From intimate ceremonies to grand celebrations, our dedicated team ensures every detail is meticulously planned and flawlessly executed. We offer a full range of services, including venue selection, decor, entertainment, catering, and more, all tailored to your vision. With our expertise and passion, we transform your dreams into a beautiful reality, leaving you free to cherish every moment of your special day.
@@ -150,8 +150,8 @@ const Works = () => {
 		</div>
 
     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse">
-			<img src="../../../Images/IMG-20190126-WA0037 - Copy.jpg" alt="" className="h-80 dark:bg-gray-500 px-5  lg:aspect-video object-cover drop-shadow-[10px_15px_1px_rgba(174,134,37)]" />
-			<div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-50">
+			<img src="../../../Images/IMG-20190126-WA0037 - Copy.jpg" alt="" className="h-80  px-5  lg:aspect-video object-cover drop-shadow-[10px_15px_1px_rgba(174,134,37)]" />
+			<div className="flex flex-col justify-center flex-1 p-6 ">
 				<h3 className="text-3xl font-bold text-gold">Corporate Events</h3>
 				<p className="my-6 text-gray-lite text-justify opacity-60">
 At DreamzMedia, we excel in organizing corporate events that leave a lasting impact. Whether it's a conference, seminar, product launch, or corporate gala, our team ensures seamless execution from start to finish. We provide comprehensive services, including venue selection, AV setup, branding, catering, and entertainment, all customized to meet your company's objectives. With our professionalism and attention to detail, we create engaging and memorable corporate events that elevate your brand and foster meaningful connections
@@ -163,8 +163,8 @@ At DreamzMedia, we excel in organizing corporate events that leave a lasting imp
 		</div>
 
     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
-			<img src="../../../Images/IMG-20180328-WA0015.jpg" alt="" className="h-80 dark:bg-gray-500 px-5  lg:aspect-video object-cover drop-shadow-[10px_15px_1px_rgba(174,134,37)]" />
-			<div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-50">
+			<img src="../../../Images/IMG-20180328-WA0015.jpg" alt="" className="h-80  px-5  lg:aspect-video object-cover drop-shadow-[10px_15px_1px_rgba(174,134,37)]" />
+			<div className="flex flex-col justify-center flex-1 p-6 ">
 				<h3 className="text-3xl font-bold text-gold">Birthday Events</h3>
 				<p className="my-6 text-gray-lite text-justify opacity-60">
 

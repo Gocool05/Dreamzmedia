@@ -45,7 +45,7 @@ const Stats = () => {
     
       return (
         <div className="h-auto Bg2">
-          <div className="pt-12  dark:bg-gray-900 sm:pt-20">
+          <div className="pt-12   sm:pt-20">
             <div className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
               <div className="max-w-4xl mx-auto text-center">
                 <h2 className="text-xl font-extrabold leading-9 text-gold lg:text-5xl sm:leading-10">
@@ -56,12 +56,12 @@ const Stats = () => {
                 </p>
               </div>
             </div>
-            <div className="pb-12 mt-10  dark:bg-gray-900 sm:pb-16">
+            <div className="pb-12 mt-10   sm:pb-16">
               <div className="relative">
-                <div className="absolute inset-0 h-1/2  dark:bg-gray-900"></div>
+                <div className="absolute inset-0 h-1/2  "></div>
                 <div className="relative max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
                   <div className="max-w-4xl mx-auto">
-                    <dl className="bg-gray-dark dark:bg-gray-800 rounded-lg shadow-lg sm:grid sm:grid-cols-3">
+                    <dl className="bg-gray-dark  rounded-lg shadow-lg sm:grid sm:grid-cols-3">
                       {targets.map((target, index) => (
                         <CounterCard key={index} title={target.title} suffix={target.suffix} count={target.count}  />
                       ))}
