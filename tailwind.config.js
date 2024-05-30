@@ -10,10 +10,6 @@ module.exports = {
         'hero-pattern': "url('https://res.cloudinary.com/dx78kzenz/image/upload/v1700478066/samples/ecommerce/analog-classic.jpg')",
         'footer-texture': "url('/img/footer-texture.png')",
       },
-
-      screens: {
-        'sm': '550px', 
-      },
       
       colors: {
         gold:'rgb(174,134,37);',
