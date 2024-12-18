@@ -8,6 +8,10 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Gallery from './pages/Gallery';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import BirthdayEvents from './pages/Events/BirthdayEvents';
+import CorporateEvents from './pages/Events/CorporateEvents';
+import MarriageEvents from './pages/Events/MarriageEvents';
+import SchoolEvents from './pages/Events/SchoolEvents';
 
 function App() {
   return (
@@ -18,6 +22,11 @@ function App() {
   <Route path='/whatwedo' element={<Works/>}/>
   <Route path='/gallery' element={<Gallery/>}/>
   <Route path='/contact' element={<Contact/>}/>
+  <Route path='/birthday-events' element={<BirthdayEvents/>}/>
+  <Route path='/corporate-events' element={<CorporateEvents/>}/>
+  <Route path='/wedding-events' element={<MarriageEvents/>}/>
+  <Route path='/school-events' element={<SchoolEvents/>}/>
+  <Route path='*' element={<SchoolEvents/>}/>
 </Routes>
  </BrowserRouter>
   );

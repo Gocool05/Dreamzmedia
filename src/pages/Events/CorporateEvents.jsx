@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Footer from "../components/Footer";
-import Nav from "../components/Nav";
+import Footer from "../../components/Footer";
+import Nav from "../../components/Nav";
 
-const Gallery = () => {
+const CorporateEvents = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [modalSrc, setModalSrc] = useState("");
 
@@ -109,8 +109,8 @@ const Gallery = () => {
           <div class="flex items-center justify-center">
             <div class="text-center text-gold">
               <h1 class="mb-2 font-serif text-3xl lg:text-7xl  font-bold">
-                Captured <br class="md:hidden" />
-                Moments
+                Corporate <br class="md:hidden" />
+                Events
               </h1>
               <p class="  lg:text-2xl text-gray-lite tracking-wide">
                 Capturing the essence of every event <br class="sm:hidden" />
@@ -172,4 +172,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default CorporateEvents;

@@ -38,9 +38,9 @@ const CounterCard = ({ title, suffix,count }) => {
 
 const Stats = () => {
     const targets = [
-      { title: 'Years of Experience', count: 16, suffix: '+' },
-      { title: 'Happy Customers', count: 100, suffix: '+' },
-      { title: 'Projects Done', count: 250, suffix: '+' }
+      { title: 'Years of Experience', count: 17, suffix: '+' },
+      { title: 'Happy Customers', count: 2000, suffix: '+' },
+      { title: 'Projects Done', count: 3500, suffix: '+' }
       ];
     
       return (
